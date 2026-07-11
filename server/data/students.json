@@ -1,20 +1,17 @@
 [
   {
-    "id": 1783775140075,
-    "name": "Raushan Kumar Singh",
-    "roll": "24-ciot-18",
-    "email": "raushanrajput7033@gmail.com",
-    "phone": "+917033331524",
-    "age": "19",
-    "course": "Computer Science"
-  },
-  {
     "id": 1783775237821,
     "name": "Ayush",
-    "roll": "24155151052",
+    "roll": "24155151028",
     "email": "ayush@12",
     "phone": "6767476736",
     "age": "20",
+    "course": "Computer Science"
+  },
+  {
+    "id": 1783789208211,
+    "name": "Raushan Rajput",
+    "roll": "24155151052",
     "course": "Computer Science"
   }
 ]

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -22,13 +23,16 @@
       </span>
     </a>
 
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html">Dashboard</a></li>
-        <li><a href="students.html" aria-current="page">Students</a></li>
-        <li><a href="add-student.html">Add Student</a></li>
-      </ul>
-    </nav>
+```
+<nav>
+  <ul class="nav-links">
+    <li><a href="index.html">Dashboard</a></li>
+    <li><a href="students.html" aria-current="page">Students</a></li>
+    <li><a href="add-student.html">Add Student</a></li>
+  </ul>
+</nav>
+```
+
   </div>
 </header>
 
@@ -43,25 +47,20 @@
 
   <section class="container">
 
-    <!-- ✅ TOOLBAR -->
-    <div class="list-toolbar">
-      <input 
-        type="search" 
-        id="searchInput" 
-        placeholder="Search by name, roll no., or course…" 
-      />
-      <a class="btn btn-primary" href="add-student.html">+ Add Student</a>
-    </div>
+```
+<!-- TOOLBAR -->
+<div class="list-toolbar">
+  <input 
+    type="search" 
+    id="searchInput" 
+    placeholder="Search by name, roll no., or course…" 
+  />
+  <a class="btn btn-primary" href="add-student.html">+ Add Student</a>
+</div>
 
-    <!-- ✅ STUDENT GRID -->
-    <div class="student-grid" id="studentGrid">
-      <!-- Cards will come from JS -->
-    </div>
-
-    <!-- ✅ EMPTY STATE -->
-    <p id="emptyState" style="text-align:center; margin-top:20px; display:none;">
-      No students found 😕
-    </p>
+<!-- STUDENT GRID -->
+<div class="student-grid" id="studentGrid"></div>
+```
 
   </section>
 </main>
@@ -72,7 +71,6 @@
   </div>
 </footer>
 
-<!-- ✅ JS -->
 <script src="js/students.js"></script>
 
 </body>
